@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="54.606" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Registration Functionality" name="User should be able to register by providing only required details" time="53.024">
+<system-out><![CDATA[
+Given User is on index page.................................................passed
+When User clicks on register link...........................................passed
+Then registration page will display.........................................passed
+And User enters First Name "John"...........................................passed
+And User enters Last Name "Doe".............................................passed
+And User enters Address "Green Apartments"..................................passed
+And User enters City "Hyderabad"............................................passed
+And User enters State "Telangana"...........................................passed
+And User enters Zip Code "500003"...........................................passed
+And User enters SSN "1234"..................................................passed
+And User enters Username "John123"..........................................passed
+And User enters Password "JohnDoe@1234".....................................passed
+And User enters Password "JohnDoe@1234" again for confirmation..............passed
+Then User clicks on Register button.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
