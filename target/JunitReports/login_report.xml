@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="100.77" tests="7" skipped="0" failures="0" errors="0">
+<testcase classname="Login Functionality" name="User Logins to application with valid username and valid password - #1.1" time="18.727">
+<system-out><![CDATA[
+Given User is on Login Page.................................................passed
+When User enters valid username "Sarah123" and password "SarahWilliams@123".passed
+And User clicks on login button.............................................passed
+Then User navigates to Home Page............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="User should not be allowed to Login to application with invalid username and valid password - #1.1" time="13.704">
+<system-out><![CDATA[
+Given User is on Login Page.................................................passed
+When User enters invalid username "Sarah1234" and valid password "SarahWilliams@123".passed
+And User clicks on login button.............................................passed
+Then User should not be able to login to application with invalid username..passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="User should not be allowed to Login to application with valid username and invalid password - #1.1" time="15.53">
+<system-out><![CDATA[
+Given User is on Login Page.................................................passed
+When User enters valid username "Sarah123" and invalid password "SarahWilliams@1234".passed
+And User clicks on login button.............................................passed
+Then User should not be able to login to application with invalid password..passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="User should not be allowed to Login to application with only providing valid username and not providing password - #1.1" time="13.207">
+<system-out><![CDATA[
+Given User is on Login Page.................................................passed
+When User enters valid username "Sarah123" and not enters password..........passed
+And User clicks on login button.............................................passed
+Then User should not be able to login to application with only username.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="User should not be allowed to Login to application by not entering username and entering only valid password - #1.1" time="12.564">
+<system-out><![CDATA[
+Given User is on Login Page.................................................passed
+When User not enters username and enters only valid password "SarahWilliams@123".passed
+And User clicks on login button.............................................passed
+Then User should not be able to login to application with only password.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="User should not be allowed to Login to application with invalid username and invalid password - #1.1" time="13.533">
+<system-out><![CDATA[
+Given User is on Login Page.................................................passed
+When User enters invalid username "Sarah1234" and invalid password "SarahWilliams@1234".passed
+And User clicks on login button.............................................passed
+Then User should not be able to login to application with invalid username and password.passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="User should not be allowed to login to application without entering username and password" time="12.377">
+<system-out><![CDATA[
+Given User is on Login Page.................................................passed
+And User clicks on login button.............................................passed
+Then User should not be able to login to application without entering username and password.passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="54.606" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Registration Functionality" name="User should be able to register by providing only required details" time="53.024">
+<testsuite name="Cucumber" time="43.886" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Registration Functionality" name="User should be able to register by providing only required details" time="43.073">
 <system-out><![CDATA[
 Given User is on index page.................................................passed
 When User clicks on register link...........................................passed
